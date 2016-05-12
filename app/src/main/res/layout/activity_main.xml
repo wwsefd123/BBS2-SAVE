@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.administrator.basdf.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageButton
+        android:id="@+id/Btn_WIFI_DIRECT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="75dp"
+        android:layout_y="100dp"
+        android:src="@drawable/wifiimg"/>
+
+    <ImageButton
+        android:id="@+id/Btn_NFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="225dp"
+        android:layout_y="100dp"
+        android:src="@drawable/nfcimg"/>
+
+    <Button
+        android:id="@+id/Btn_MCONNECT"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="125dp"
+        android:layout_y="200dp"
+        android:onClick="openFileBrowser"
+        android:text="파일브라우저"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="125dp"
+        android:layout_y="250dp"
+        android:onClick="createConnection"
+        android:text="자동 연결"/>
+
+    <TextView
+        android:id="@+id/device_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>

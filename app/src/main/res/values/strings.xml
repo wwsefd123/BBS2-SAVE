@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BASDF</string>
+    <string name="action_settings">Settings</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="empty"></string>
+
+</resources>
